@@ -7,10 +7,18 @@ title: Adam Schmideg
 </head>
 <body>
 
+<h1>Bejegyzések</h1>
+
+  <ul class="posts">
+    {% for post in site.categories.hu %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+
 <h1>Posts</h1>
 
   <ul class="posts">
-    {% for post in site.posts %}
+    {% for post in site.categories.en %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
