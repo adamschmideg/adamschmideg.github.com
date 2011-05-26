@@ -1,7 +1,13 @@
 ---
-title: This is the index
+title: Adam Schmideg
 ---
-# Posts
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+<body>
+
+<h1>Posts</h1>
 
   <ul class="posts">
     {% for post in site.posts %}
@@ -9,8 +15,11 @@ title: This is the index
     {% endfor %}
   </ul>
 
-# Projects
+<h1>Projects</h1>
 
   <ul class="posts">
     <li><a href="/lambdebug">Lambdebug</a></li>
   </ul>
+
+</body>
+</html>

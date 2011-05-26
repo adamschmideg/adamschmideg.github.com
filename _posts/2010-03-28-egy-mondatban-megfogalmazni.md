@@ -1,7 +1,11 @@
-Van egy szerzô, akinek mindenki ráismer a stílusára.  
+---
+layout: post
+title: Egy mondatban megfogalmazni
+---
+Van egy szerző, akinek mindenki ráismer a stílusára.  
 El se kell olvasni, amit írt.  
 Elég ránézni.  
-Úgy néz ki, mintha csak a lényegrôl írna.  
+Úgy néz ki, mintha csak a lényegről írna.  
 Nem beszél mellé.  
 Minden egyes mondata az igazságot hordozza.  
 Így is kell olvasni: mondatonként.  
@@ -17,7 +21,7 @@ Ki lehet az?
 Az írása hasonlít
 Majakovszkij verseihez
 
-de nem ô az.
+de nem ő az.
 
 Hanem Müller Péter.  
 A Mester.  
@@ -26,15 +30,15 @@ Teréz-körúton.
 Akinek a legkevesebbet kell írnia ahhoz, hogy megteljen egy
 oldal.  
 Kevés szóval is sokat mond.  
-Sôt.  
-Egy idôben idegesített.  
+Sőt.  
+Egy időben idegesített.  
 Aztán eszembe jutott, hogy kipróbálom, milyen így írni.  
 Kiteszem a pontot, és elgondolkodom.  
 Hogyan folytassam?  
 Ez ad egy ritmust a gondolkodásnak.  
-Nem hagy elôreszaladni.  
+Nem hagy előreszaladni.  
 Arra kényszerít, hogy egyszerre egyetlen dolgon gondolkodjak.  
-A következô mondaton.  
+A következő mondaton.  
 Kizárja a bonyolultabb gondolatokat.  
 Amit nem lehet egy mondatban megfogalmazni, arról hallgatni kell.  
 Kötöttségekkel írni.  
@@ -56,7 +60,7 @@ Mindenkihez szólnak, ezért senkihez.
 Amivel más nem tud mit kezdeni.  
 Amit leírok, és utána felkiáltok: nahát, hogy erre nem gondoltam
 eddig!  
-Amitôl kicsit megváltozik az életem.  
+Amitől kicsit megváltozik az életem.  
 Ahogy egy csokor nárcisz az asztalon megváltoztatja a szobát.  
 Nem a lakást akarom elcserélni, nem is a szobát kifesteni.  
 Csak egyetlen csokor virágot.  
@@ -64,11 +68,11 @@ Vagy még annál is kevesebbet, kivinni a tányért a mosogatóba.
 Más talán észre sem veszi a változást.  
 Én sem veszem észre, ha sietek.  
 Lelassulni.  
-Hármas sebességbôl kettesbe váltani.  
+Hármas sebességből kettesbe váltani.  
 Minden egyes mondatra odafigyelni.  
 Kitenni a pontot és elgondolkodni.  
 Aztán ha kész a szöveg, újraolvasni.  
-A pontokat vesszôre cserélni.  
+A pontokat vesszőre cserélni.  
 Ez idegesít Müller Péternél, hogy a végén nem cseréli ki a
 pontokat.  
 Én sem fogom.  
