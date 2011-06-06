@@ -2,6 +2,10 @@
 layout: post
 title: Nem akarok az érzéseimről beszélni
 lead: Kiadatlan, általam kitalált részlet Fritz Perls egyik csoportterápiás üléséről.
+tags:
+  - Gestalt
+  - Gestalt-terápia
+  - Fritz Perls
 ---
 Fritz: mondja azt: Fritz, kedvesebb kellene, hogy legyél.
 
