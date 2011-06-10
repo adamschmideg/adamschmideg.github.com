@@ -6,18 +6,29 @@ body, div, ul, li, p {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 body {
   position: relative;
   margin: 0;
   font-family: Ubuntu, Helvetica, Arial, sans-serif;
-  //color: DarkRed;
 }
 
 body .wrap {
   margin: 0 auto;
   width: 600px;
-  background-color: Linen;
   border-radius: 10px;
+}
+
+body .column-wrap {
+  width: 300px;
+  float: left;
 }
 
 ul.toc {
@@ -27,16 +38,17 @@ ul.toc {
 }
 
 ul.toc li {
-  width: 280px;
-  //height: 150px;
-  float: left;
+  background-color: Linen;
   border-color: DarkRed;
-  border-style: solid;
-  margin-left: 10px;
-  margin-top: 10px;
-  text-align: center;
   border-radius: 10px;
+  border-style: solid;
   border-width: 1px;
+  float: left;
+  //height: 150px;
+  margin-left: 10px;
+  margin-top: 20px;
+  text-align: center;
+  width: 280px;
 }
 
 .handwriting {
@@ -47,8 +59,12 @@ ul.toc li {
 .toc .title {
   font-weight: bold;
   font-size: 14pt;
-  color: DarkRed;
   text-transform: uppercase;
+  margin-top: 4px;
+}
+
+.toc .title a {
+  color: DarkRed;
 }
 
 .toc .lead {
