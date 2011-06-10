@@ -1,5 +1,4 @@
 ---
-title: Adam Schmideg
 ---
 <html>
 <head>
@@ -8,50 +7,23 @@ title: Adam Schmideg
 </head>
 <body>
 
-<div class='wrap'>
+<div class='wrap handwriting'>
+  <div class='column-wrap'>
+    <ul class='toc'>
+      {% for post in site.categories.en limit:5 %}
+        {% include snippet.html %}
+      {% endfor %}
+    </ul>
+    <a style='color: DarkRed; margin: 20px; font-size: 14pt' href='/en'>Archive</a>
+  </div>
   <div class='column-wrap'>
     <ul class='toc handwriting'>
       {% for post in site.categories.hu limit:5 %}
-        <li>
-          <div class='title'>
-            <a href='{{ post.url }}'>{{ post.title }}</a>
-          </div>
-          <p class='lead'>
-            {% if post.lead %}
-              {{ post.lead }}
-            {% else %}
-              {{ post.content | strip_html | truncatewords:20 }}
-            {% endif %}
-          </p>
-        </li>
+        {% include snippet.html %}
       {% endfor %}
     </ul>
+    <a style='color: DarkRed; margin: 20px; font-size: 14pt' href='/hu'>Archívum</a>
   </div>
-
-  <div class='column-wrap'>
-    <ul class='toc handwriting'>
-      {% for post in site.categories.en limit:5 %}
-        <li>
-          <div class='title'>
-            <a href='{{ post.url }}'>{{ post.title }}</a>
-          </div>
-          <p class='lead'>
-            {% if post.lead %}
-              {{ post.lead }}
-            {% else %}
-              {{ post.content | strip_html | truncatewords:20 }}
-            {% endif %}
-          </p>
-        </li>
-      {% endfor %}
-    </ul>
-  </div>
-</div>
-
-<div class='wrap'>
-  <ul class="posts">
-    <li><a href="/lambdebug">Lambdebug</a></li>
-  </ul>
 </div>
 
 </body>
