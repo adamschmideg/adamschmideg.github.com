@@ -1,0 +1,44 @@
+
+body, div, ul, li {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  color: DarkRed;
+}
+
+body .wrap {
+  margin: 0 auto;
+  width: 600px;
+  background-color: Linen;
+  border-radius: 10px;
+}
+
+ul.toc {
+  border-radius: 10px;
+  border-width: 2px;
+  margin-bottom: 1em;
+}
+
+ul.toc li {
+  width: 280px;
+  //height: 150px;
+  float: left;
+  border-color: DarkRed;
+  border-style: solid;
+  margin-left: 10px;
+  margin-top: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+ul.toc li em {
+  padding: 9px;
+}
+
+br {
+  clear: left;
+}
