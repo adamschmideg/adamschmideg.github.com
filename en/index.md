@@ -8,6 +8,7 @@
 <body>
 
 <div class='wrap'>
+  {% include header.html %}
   <ul class='toc handwriting'>
     {% for post in site.categories.en %}
       {% include snippet.html %}

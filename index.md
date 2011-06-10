@@ -8,6 +8,8 @@
 <body>
 
 <div class='wrap handwriting'>
+  {% include header.html %}
+
   <div class='column-wrap'>
     <ul class='toc'>
       {% for post in site.categories.en limit:5 %}
