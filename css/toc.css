@@ -66,6 +66,21 @@ ul.toc {
   letter-spacing: 0.15em;
 }
 
+.post {
+  background-color: Linen;
+  margin: 10px;
+  margin-top: 20px;
+  font-family: Ubuntu;
+  letter-spacing: 0;
+  float: left;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.post p {
+  padding-top: 5px;
+}
+
 .toc .title {
   font-weight: bold;
   font-size: 14pt;

@@ -19,11 +19,10 @@ Nyugodt ember lehet, nem siet sehová.
 Az olvasóit sem hagyja sietni.  
 Ki lehet az?  
 Az írása hasonlít
-Majakovszkij verseihez
 
-de nem ő az.
-
-Hanem Müller Péter.  
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Majakovszkij verseihez
+<div style='text-align:center'>de nem ő az.</div>
+<div style='text-align:right'>Hanem Müller Péter.</div>
 A Mester.  
 Aki olyan otthonosan mozog a spirituális világban, mint én a
 Teréz-körúton.  
@@ -44,8 +43,11 @@ Amit nem lehet egy mondatban megfogalmazni, arról hallgatni kell.
 Kötöttségekkel írni.  
 Például nem prózában írni, hanem hexameterben, mint Devecseri
 Gábor.  
-Aztán lemenni a boltba és a pultnál
-kérni.*Kérek tíz deka sonkát és ugyanannyi szalámit.*Hexameterben.  
+Aztán lemenni a boltba és a pultnál kérni.
+
+*Kérek tíz deka sonkát és ugyanannyi szalámit.*
+
+Hexameterben.  
 A kötöttség szabadságot ad.  
 Ha meg van kötve a lábam, kénytelen vagyok lassabban mozogni.  
 Ha lassabban mozgok, jobban figyelek a lépéseimre.  
