@@ -1,7 +1,11 @@
-![zen\_stone1](http://adam.schmideg.net/wp-content/uploads/2009/05/zen_stone1.jpg "zen_stone1")
+---
+title: A sima tárgy
+layout: post
+---
+![zen-stone](https://lh4.googleusercontent.com/-DD3v2K0hsxc/Tf8_dgZyPQI/AAAAAAAAABA/Z9uMKwsoopM/s144/zen_stone1.jpg)
 Van egy tárgy, egy eszköz, amely elsimítja a gondokat. Hívjuk
-kulcsnak, nem, szebb nevet érdemel, tulajdonnevet. [Ezt a részt
-majd később kitöltöm]. Mint gyereket a sztetoszkóp vagy anyja
+kulcsnak, nem, szebb nevet érdemel, tulajdonnevet. (Ezt a részt
+majd később kitöltöm). Mint gyereket a sztetoszkóp vagy anyja
 érintése gyógyítja meg. Orvosság se kell, csak oda nyúlni, hol
 fészkel a fájdalom. Kézrátét. Bajok elleni érintésvédelem.
 
