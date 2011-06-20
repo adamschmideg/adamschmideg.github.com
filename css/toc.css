@@ -52,6 +52,7 @@ ul.toc {
 }
 
 .header, .footer {
+  border-width: 3px;
   width: 570;
   font-family: 'Annie Use Your Telescope', serif;
   letter-spacing: 0.25em;
