@@ -6,8 +6,9 @@ tags:
   - Gestalt
   - Gestalt-terápia
   - Fritz Perls
+categories: gestalt
 ---
-Fritz: mondja azt: Fritz, kedvesebb kellene, hogy legyél.
+Fritz: mondja azt, Fritz, kedvesebb kellene, hogy legyél.
 
 Peter: Nem érzem, hogy... nem így érzem.
 

@@ -2,9 +2,7 @@
 title: Az árnyékos pad és a föld
 layout: post
 lead: Tűnődés a parkban az önismeret napos és árnyékos oldaláról
-categories:
-  - gestalt
-
+categories: gestalt
 ---
 Régen leültem mindenféle padokra.  Évek alatt tanultam meg, hogy a napon
 elpilledek.  Ez is az önismeret része.  Már jobban ismerem magam, ezért
