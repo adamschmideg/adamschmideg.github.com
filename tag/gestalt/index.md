@@ -11,8 +11,10 @@
 <div class='wrap'>
   {% include header.html %}
   <ul class='toc handwriting'>
-    {% for post in site.categories.gestalt %}
-      {% include snippet.html %}
+    {% for post in site.posts %}
+      {% if post.tags contains 'gestalt' %}
+        {% include snippet.html %}
+      {% endif %}
     {% endfor %}
   </ul>
 </div>

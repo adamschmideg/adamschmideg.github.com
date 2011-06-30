@@ -2,12 +2,10 @@
 layout: post
 title: Nem akarok az érzéseimről beszélni
 lead: Kiadatlan, általam kitalált részlet Fritz Perls egyik csoportterápiás üléséről.
-tags:
-  - Gestalt
-  - Gestalt-terápia
-  - Fritz Perls
-categories: gestalt
+tags: [gestalt, gestalt-terápia, fritz perls]
 ---
+(Peter összefont kézzel ül)
+
 Fritz: mondja azt, Fritz, kedvesebb kellene, hogy legyél.
 
 Peter: Nem érzem, hogy... nem így érzem.
