@@ -1,7 +1,7 @@
 ---
 title: Improvizálni úgy, hogy gyógyítsa a lelket
 layout: post
-lead: A Playback és a Gestalt közötti rokonságról
+lead: A Playback és a Gestalt közötti rokonságról a II. Országos Playback Színházi találkozóra
 tags: [gestalt, playback]
 ---
 
@@ -63,5 +63,5 @@ velük; és hogy figyeljünk a folyamat egészére -- nevezzük ezt akár
 drámai ívnek, akár gestalt-ciklusnak.  Nem véletlen, hogy a
 gestalt-csoportokban felbukkannak playbackesek, és több társulat tagjai
 -- pl. Álomszínház, Vaku -- tanultak gestaltot.  E két módszernek van
-mit tanulnia egymástól.  Nekünk pedig, playbackeseknek és gestaltosoknak
+mit tanulnia egymástól.  Nekünk pedig -- playbackeseknek és gestaltosoknak --
 érdemes egymással kapcsolódnunk.
