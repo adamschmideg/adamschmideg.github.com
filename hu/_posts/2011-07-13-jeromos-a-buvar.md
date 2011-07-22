@@ -1,5 +1,5 @@
 ---
-title: Jeromos, a búvár
+title: Jeromos a mélyben
 lead: Mese, melyet az Integrált Kifejezés- és Táncterápiás tábor alatt írtam
 layout: post
 ---
