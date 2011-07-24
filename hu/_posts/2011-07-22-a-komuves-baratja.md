@@ -26,6 +26,14 @@ könyököl, és addig nyomja az Entert, míg el nem tűnik a szöveg.  De
 legtöbbször nem ilyen kifinomult, csak pofon vág, hogy utána napokig
 cseng a fülem, máskor sípcsonton rúg, vagy a forró kávét az ölembe önti.
 
+Néha felmerül bennem az is, hogy követ mindenhová.  Tavaly egy hétre
+elutaztam a hegyekbe, egyedül, nem szóltam róla senkinek.  És másnap
+reggel, ahogy a verandára kiléptem, ott várt.  Vigyorgott, mint aki
+tudja, megszólalnia sem kell, a puszta jelenléte megteszi a hatását.
+Délután összecsomagoltam, és hazajöttem.  Még az ilyen helyek a
+legbiztonságosabbak, mint ez a lepattant csehó.  Inkább azokat a
+helyeket kedveli, melyek fényesek, nyugodtak, előkelőek.
+
 Ilyeneket beszélt a barátom, aki költő és értelmiségi, de általában én
 fizetem a sörét.  Mondta a fickó nevét is, valami furcsa indiánnevet,
 mint Ülő Bika vagy Tavalyi Hó, már nem emlékszem pontosan.  Állítólag
@@ -33,5 +41,43 @@ kerüli az olyan egyszerű embereket, mint én, elvégre minek mondaná
 nekem, hogy ferde a fal, amit raktam.  Legföljebb a kezébe nyomnám a
 vakolókanalat, hogy csináld egyenesebbre, komám, ha tudod, ez olcsó,
 bontott tégla, csoda, hogy egyáltalán megáll.  Személyesen még nem
-találkoztam az illetővel, bár azt hiszem, nem járna jól velem, kirúgnám
+találkoztam az illetővel, de azt hiszem, nem járna jól velem, kirúgnám
 alóla a széket, mielőtt a mondat végére érne.
+
+A második sörömnél tartottam, ez a barátom, a Dzsoni még csak félig itta
+ki az övét, annyit beszélt.  Ragaszkodott hozzá, hogy még ma
+találkozzunk, mert akkora a baj.  Meg van akadva, így fogalmazott.
+Rendes fiú, bár túlzásra hajlamos, én pedig hét közben nem iszom, mert
+másnap korán kelek, és akkor tényleg ferdén rakom a falat.
+Sejtettem, hogy nemet kellett volna mondanom, bármennyire erősködik.  De
+ha az ember barátja bajban van, akkor azt a sört hétköznap is le kell
+gurítani.
+
+Az derült ki, hogy szonettet ír, s elakadt a hetedik és nyolcadik sor
+között.  Felolvasta nekem, ameddig eljutott (hálát adtam magamban, hogy
+költő, s nem egy regény közepén akadt el), és kérdezte a véleményemet.
+Csak így tovább, mondtam.  Egy kukkot sem értettem belőle, de ha ezzel
+szeret vacakolni, folytassa és fejezze be épp olyan érthetetlenül, mint
+az első fele.  Különben is, ő rakta össze eddig, legjobban ő tudja, mi
+következik.  Ekkor kezdett bele a kusza sztoriba a rejtélyes alakról,
+aki mindig a nyomában van, és beszól neki.  Dzsoni rövidet kortyolt a
+söréből, és beszélt tovább.
+
+Az első három sort egyetlen lendülettel írtam, nem ittam előtte, közben
+sem mentem ki rágyújtani.  Úgy éreztem, ez eddigi alkotásom csúcsa, és
+ha kitartok, egy eposz is összejön, amiròl évek óta ábrándozom.  A sor
+végén fölemeltem a tollat, és amíg áthelyeztem a papír bal széle fölé,
+elkalandoztam egy pillanatra.  Neszt hallottam az ablak felől, egy
+sziszegő hangot, amint lassan formálja a szót: ssszar.
+
+Az ablakot azonnal becsuktam, és felcsavartam a Roxy rádiót olyan
+hangerőre, hogy belesüketüljek.  Ám hiába, a hang a fejemben szólt
+tovább, mint a Holló {i}soha-már{/i}-ja.  Egy Unicumot vettem magamhoz,
+mely állítólag nyugtató hatású gyógynövényekben gazdag, majd tíz perc
+múlva dupláztam a dózist.  Így sikerült feltornáznom a három sort ötre,
+de a küzdelemben teljesen kimerültem.  Van ez az új barátnőm, akiről már
+meséltem, helyes csaj, aznap este találkoztam volna vele, de le kellett
+mondanom, és a Barátok között 406. epizódjával tompítottam kínomat.
+
+Most is itt van?, szakítottam félbe, nehogy elmesélje a hatodik és
+hetedik sor születését és szülési fájdalmait.
