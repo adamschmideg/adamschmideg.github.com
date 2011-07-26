@@ -79,5 +79,47 @@ de a küzdelemben teljesen kimerültem.  Van ez az új barátnőm, akiről már
 meséltem, helyes csaj, aznap este találkoztam volna vele, de le kellett
 mondanom, és a Barátok között 406. epizódjával tompítottam kínomat.
 
-Most is itt van?, szakítottam félbe, nehogy elmesélje a hatodik és
+Ide is követett? -- szakítottam félbe, nehogy elmesélje a hatodik és
 hetedik sor születését és szülési fájdalmait.
+
+-- Jézusom, dehogy.  Néha hirtelen hátrafordulok az utcán, de nem látom
+soha.  Otthon benézek a függöny mögé meg az ajtó és szekrény közötti
+ficakba.  De mindig meglepetésszerűen bukkan elő. -- Dzsoni riadtan
+körbenézett.  Az a vén szivar támasztotta a pultot, aki "vicces
+házmestert" szokott kérni, és minden alkalommal szárazon röhögött a
+saját poénján.  A távolabbi jatékgépnél egy akkora fiatalember ült, hogy
+a szék sámlinak tűnt alatta; festékfoltos nadrágjából láthatólag az
+utolsó ezresét horgászta elő, és gyömöszölte a gépbe.  A másik gépnél
+senki nem ült, csilingelve várt áldozatára.  Az apró kocsma többi
+asztalánál a törzsvendégek bámultak maguk elé meredten, többségük
+túlitta már magát azon a szinten, ahol még képes imitálni a
+beszélgetést.  A szokásos ártalmatlan alkoholisták, amilyen magam is
+voltam két évvel ezelőtt. -- Dobok egy sárgát -- állt fel Dzsoni --,
+tudod, a sör.
+
+-- Egy korsóval sem ittál.  Neked málnaszörp való. -- Reméltem, hányni
+nem fog, nem bírta az alkoholt.
+
+Felvettem az asztalról a füzetét, melyet nyitva hagyott a versnél.
+Közönséges iskolai füzet, néhány lapot írt csak tele, és legalább annyit
+kitépett, hirtelen mozdulattal, hogy bent maradt a papír cakkos széle.
+Itt-ott beleolvastam, de épp olyan kínai volt nekem, mint az összes
+írása eddig.  Amit beszél, azt értem, de mintha írás közben másik
+nyelvre váltana.  Van az építkezésen egy kis koreai, akit csak
+ebédszünetben értek, amikor hallgatnak a szerszámok, és cefetül
+figyelek.  Máskor a magyar szavak a szájában csingcsunggá olvadnak
+össze.  Az is ilyen kis törékeny ember, mint az én Dzsoni barátom, hogy
+úgy érzem, meg kell védeni, túl durva és nagy ez a világ neki.
+
+-- Mutasd -- hallottam a hátam mögül.  Azt hittem, Dzsoni az.  Olyan
+furcsán borzongott a tarkóm.   Nem kellett volna beleolvasnom, biztos
+rossz néven veszi.  Egy kéz nyúlt át a vállam fölött, és magához ragadta
+a füzetet.  Megpördültem, félig felálltam, bal kéz ösztönösen az arc
+elé, a jobb enyhén hátrahúzva, ökölben, hátha érvelni kell.
+
+Egy vékony férfi állt ott barna szövetkabátban, olyan magas, hogy
+homályba veszett az arca.  Nem tűnt fenyegetőnek, inkább bánatosnak,
+ahogy a fejét ingatta, miközben lapozta a füzetet.  Hogy nem sül meg
+ebben a kabátban nyáron?  Ez volt az első gondolatom.  Feje fölött a
+ventillátor forgott lomhán, azt hittem, onnan jön a hang, aztán
+rájöttem, a férfi hangja az, ahogy kimondja: szar.
