@@ -72,7 +72,7 @@ sziszegő hangot, amint lassan formálja a szót: ssszar.
 
 Az ablakot azonnal becsuktam, és felcsavartam a Roxy rádiót olyan
 hangerőre, hogy belesüketüljek.  Ám hiába, a hang a fejemben szólt
-tovább, mint a Holló {i}soha-már{/i}-ja.  Egy Unicumot vettem magamhoz,
+tovább, mint a Holló *soha-már*-ja.  Egy Unicumot vettem magamhoz,
 mely állítólag nyugtató hatású gyógynövényekben gazdag, majd tíz perc
 múlva dupláztam a dózist.  Így sikerült feltornáznom a három sort ötre,
 de a küzdelemben teljesen kimerültem.  Van ez az új barátnőm, akiről már
