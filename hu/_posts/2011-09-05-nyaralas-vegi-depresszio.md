@@ -44,4 +44,24 @@ otthonról hozott kötöttségek szorítása lazább, csak az van velem, amit
 magammal hordozok, amit a húsomba égett az évek alatt.  A helyi
 kötöttségeknek viszont csak egy puhított minimálverziója vonatkozik rám.
 
-Gyermeki állapot ez, izgalmas és csodálatos.
+Gyermeki állapot ez, izgalmas és csodálatos.  És ahogy a gyermeknek,
+nekem sem szabad mindent, vannak elzárt területek, amelyek már a felnőtt
+világhoz tartoznak.  Ha dolgozni akarnék, ahhoz munkavállalási engedély
+kell, és mindaz a nyűgös adminisztráció, ami a világ minden országában
+hasonló.  A szerelem is csak látszólag két ember magánügye: egy külföldi
+kapcsolatban lassanként el kell sajátítanom azokat az apró és homályos
+szabályokat, melyeket az útikönyvek jótékonyan nem említenek.  Ahogy
+aztán a kapcsolat komolyodik, a szabályok száma nő; végül egy gyerek
+születése legalább annyi hercehurcával jár, mint a munkavállalás.
+
+Szerintem erről szól a Paradicsom története a Bibliában: Ádám és Éva
+külföldön nyaral, remekül érzik magukat.  Aztán dolgozni támad kedvük
+egy gyereket nevelni.  Elballagnak hát a fához, hogy megismerjék a helyi
+szabályokat, vagyis mit tartanak jónak és rossznak ezen a vidéken.  Így
+ér véget a felhőtlen vakáció, haza kell térniük az Édentől keletre, ahol
+verejtékes a munka és fájdalmas a szülés.
+
+A lángpallosú kerub nem más, mint a repülő korabeli ábrázolása.  Leszáll
+a gép, és a kapitány kihirdeti az ítéletet: Budapest, fél négy múlt öt
+perccel, kint tizennyolc fok van.  Kihallom hangjából az iróniát, ahogy
+hozzáteszi: köszönöm, hogy a mi járatunkat választották.
