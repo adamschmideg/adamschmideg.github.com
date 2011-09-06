@@ -1,5 +1,5 @@
 ---
-title: Nyaralás végi depresszió
+title: Anyu, ne menjünk még haza
 layout: post
 ---
 Nyaralásból hazaérkezni öröm, az ember szíve megdobban, ahogy átlépi a
