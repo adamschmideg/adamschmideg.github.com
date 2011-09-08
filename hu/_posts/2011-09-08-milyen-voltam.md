@@ -36,3 +36,31 @@ bosszankodunk egy programmal, hogy "az nem hiba, hanem szándékosan van
 úgy".  Ezek azonban ritkák az informatikus életében, ideje nagy részében
 pontosan tudja, hogyan teljesített.
 
+A visszajelzés több szempontból érdekes.  Csíkszentmihályi szerint ez a
+Flow-állapot egyik alapfeltétele.  Nekem az az elméletem, hogy ennek
+köszönhető a tudományok és az utóbbi évtizedekben az informatika sikere:
+sok ember kerül Flow-állapotba, miközben a tudománnyal vagy
+informatikával foglalkozik.  Nem tudom, hogy a programozók
+boldogabbak-e, mint a kőfaragók és balett-táncosok, és kevesebb-e
+közöttük az alkoholista -- de nem lepne meg.  Az egyértelmű
+visszacsatolás azonban még egy fontos következménnyel jár: megkönnyíti a
+tanulást.
+
+Képzeljük el, milyen nehéz úgy elsajátítani valamit és képességeinket
+tovább csiszolni, ha az egyik tanár az egekig magasztal, a másik a
+földbe döngöl.  Melyiknek higgyünk, melyik irányba menjünk tovább?
+
+Ennél árnyaltabb a helyzet, hiszen a művészeteknek is van olyan szakmai
+része, amit általában megkövetelnek.  Egy csellista-tanoncnál minden
+tanára egyformán meghallja, ha hamisan fog le egy hangot.  Egy laikus is
+el tudja dönteni, hogy egy portré hasonlít-e a modellre.  Ez azonban a
+művészet elemi iskolája, senki nem lett ünnepelt költő azért, mert a
+helyesírása kifogástalan.
+
+Ugyanakkor a programozásnak is vannak olyan finomságai, melyeket nem
+lehet közvetlenül megtanítani.  A hibakeresésre vagy a tervezésre rá
+kell érezni, amihez szükség van bizonyos látásmódra, tehetségre.  Ezek a
+finomságok viszont kívülről nem láthatóak a kész programon, ott csak az
+számít, működik-e.  Így tehát középszerű programozók is létrehozhatnak
+kiváló művet, legfeljebb ügyes irányítás mellett, több munkával és
+küzdelemmel.
