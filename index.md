@@ -28,6 +28,5 @@
     <a style='color: DarkRed; margin: 20px; font-size: 14pt' href='/hu'>Archívum</a>
   </div>
 </div>
-
 </body>
 </html>
