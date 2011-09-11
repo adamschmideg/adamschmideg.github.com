@@ -1,7 +1,7 @@
 ---
 title: Milyen voltam?
 layout: post
-published: False
+lead: Avagy mennyire hiányzik az egyértelmű visszajelzés a művészeknek 
 ---
 Több színészről kering a következő anekdota.  Előadás után összefut
 egy barátjával.  Elmeséli neki, hogyan készült a szerepre, min veszett
@@ -42,13 +42,13 @@ köszönhető a tudományok és az utóbbi évtizedekben az informatika sikere:
 sok ember kerül Flow-állapotba, miközben a tudománnyal vagy
 informatikával foglalkozik.  Nem tudom, hogy a programozók
 boldogabbak-e, mint a kőfaragók és balett-táncosok, és kevesebb-e
-közöttük az alkoholista -- de nem lepne meg.  Az egyértelmű
-visszacsatolás azonban még egy fontos következménnyel jár: megkönnyíti a
-tanulást.
+közöttük az alkoholista -- de nem lepne meg.
 
-Képzeljük el, milyen nehéz úgy elsajátítani valamit és képességeinket
-tovább csiszolni, ha az egyik tanár az egekig magasztal, a másik a
-földbe döngöl.  Melyiknek higgyünk, melyik irányba menjünk tovább?
+Az egyértelmű visszacsatolás azonban még egy fontos következménnyel jár:
+megkönnyíti a tanulást.  Képzeljük el, milyen nehéz úgy elsajátítani
+valamit és képességeinket tovább csiszolni, ha az egyik tanár az egekig
+magasztal, a másik a földbe döngöl.  Melyiknek higgyünk, melyik irányba
+menjünk tovább?
 
 Ennél árnyaltabb a helyzet, hiszen a művészeteknek is van olyan szakmai
 része, amit általában megkövetelnek.  Egy csellista-tanoncnál minden
@@ -63,4 +63,20 @@ kell érezni, amihez szükség van bizonyos látásmódra, tehetségre.  Ezek a
 finomságok viszont kívülről nem láthatóak a kész programon, ott csak az
 számít, működik-e.  Így tehát középszerű programozók is létrehozhatnak
 kiváló művet, legfeljebb ügyes irányítás mellett, több munkával és
-küzdelemmel.
+erőfeszítéssel.
+
+Nem véletlen, hogy a művészi képzést homály övezi, és sokan úgy
+tekintik, erre születni kell.  A színészek és írók nem képzik magukat
+tovább, nem járnak tréningekre, hanem azzal hitegetik magukat, legjobban
+a szakma gyakorlása közben lehet tanulni, nincs szükségük másra.  És
+különösen szentségtörés azt a kérdést feszegetni, hogy egy sikeres
+alkotó szakmai kiválósága emelt-e magasba vagy a közönség szeszélye,
+netán a marketing-gépezet.
+
+Az az álmom, hogy egyszer feltalálnak valamilyen eszközt, amely
+visszacsatolást a művészetben egyértelműbbé teszi.  Ha írok egy cikket,
+csak betolom a masinába, mely nem csupán azt számolja meg, hány leütés
+lett, hanem számmal fejezi ki a minőségét is.  Ez csak négyes?  Akkor
+még javítok rajta egy kicsit.  A színésznek pedig, amikor
+kétségbeesetten faggatja a barátait, csak annyit fognak válaszolni:
+tápláld be az értékelőgépedbe.
