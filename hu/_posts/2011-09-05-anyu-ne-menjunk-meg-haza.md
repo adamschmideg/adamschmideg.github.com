@@ -1,6 +1,7 @@
 ---
 title: Anyu, ne menjünk még haza
 layout: post
+lead: Nemcsak a gyerekek utálnak hazamenni a játszótérről.  Én mint felnőtt is utálom, hogy véget ér a vakáció.
 ---
 Nyaralásból hazaérkezni öröm, az ember szíve megdobban, ahogy átlépi a
 határt, vagy a reptéren hazai földre lép.  Van, akinél már egy-két hét
