@@ -1,7 +1,8 @@
 /* Following are the presentation styles -- edit away! */
+@import url(http://fonts.googleapis.com/css?family=Ubuntu&subset=latin,latin-ext);
 body {
-  font-family: 'Julee', 'Comic Sans MS';
-  color: SaddleBrown;
+  font-family: 'Ubuntu', sans-serif;
+  color: Black;
   background: #FFF url(../pics/bg.jpg) 0 0 repeat;
   font-size: 2em;
 }
