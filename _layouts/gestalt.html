@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link rel='stylesheet' type='text/css' href='/css/hobbit.css' media='screen'/>
+  <title>{{ page.title }}</title>
+  {% include analytics.html %}
+</head>
+<body>
+<div class="container">
+	<div class="gfx"><span></span></div>
+	<div class="top">
+		<div class="navigation">
+			<a href="/gestalt">Kezdõlap</a>
+			<a href="/gestalt/rolam">Rólam</a>
+			<a href="/gestalt/praktikus">Praktikus tudnivalók</a>
+			<a href="/gestalt/modszertan">Módszertan</a>
+			<a href="/gestalt/gyakorlatok">Gyakorlatok</a>
+		</div>
+		<div class="pattern"><span></span></div>
+		<div class="header">
+			<h1>Schmideg Ádám</h1>
+			<p>Gestalt-terapeuta</p>
+		</div>
+		<div class="pattern"><span></span></div>
+	</div>
+	<div class="content">
+		<div class="spacer"></div>
+		<div class="item">
+			<div class="title">{{ page.title }}</div>
+			<div class="body">
+        {{ content }}
+        <div class="divider"><span></span></div>
+			</div>
+		</div>
+  </div>
+	<div class="footer">
+		<div class="right"><a href="http://templates.arcsin.se/">Website template</a> by <a href="http://arcsin.se/">Arcsin</a></div>
+		<div class="clearer">&nbsp;</div>
+	</div>
+</div>
+{% include disqus.html %}
+</body>
+</html>

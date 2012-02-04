@@ -1,19 +1,14 @@
 ---
+title: Kedvcsináló
+layout: gestalt
 ---
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <link rel='stylesheet' href='/css/toc.css' type='text/css'/>
-  {% include analytics.html %}
-</head>
-<body>
-
+<img class="left" src="/img/hobbit/map.jpg" width="180" height="152"/>
 Egy ideális világban olyan lenne a terápia,
  hogy csak belefúj az ember a varázssípjába, amikor szüksége van rá,
  és máris megjelenik a terapeutája.
 A Gestalt-terápia szerint ahogyan máshol működünk, az jelenik meg a terápiás ülésen is,
  tehát szinte élőben foglalkozunk azzal, ami felmerül.
-Igaz, abban az ideális világban volna szükség sípra, sőt terapeutára sem.
+Igaz, abban az ideális világban nem volna szükség sípra, sőt terapeutára sem.
 
 Egy ideális világban a terapeuta már összes sérelmét és félelmét feldolgozta,
  és mint megvilágosodott, tiszta lény van jelen.
@@ -27,17 +22,7 @@ Egy ideális világban pontosan jár a villamos, nincsen dugó, nem romlik el a 
  előre tudom, mit kapok a pénzemért, nekem csak fizetnem kell, a többi a szakember dolga.
 Nos, ez nem egy ideális világ...
 
-<div class='wrap'>
-  {% include header.html %}
-  Gestaltos írásaim:
-  <ul class='toc handwriting'>
     {% for post in site.posts %}
       {% if post.tags contains 'gestalt' %}
-        {% include snippet.html %}
       {% endif %}
     {% endfor %}
-  </ul>
-</div>
-{% include disqus.html %}
-</body>
-</html>
