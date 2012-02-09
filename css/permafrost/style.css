@@ -1,0 +1,391 @@
+@charset "utf-8";
+@import url('style-reset.css');
+
+/*   
+Template Name: PermaFrost
+Author: Dieter Schneider
+Author URI: http://www.csstemplateheaven.com/
+*/
+
+/*-----------------------------------------------*/
+/*--------------- SITE STRUCTURE ---------------*/
+/*---------------------------------------------*/
+
+body {font-size: 100%; font-family: Arial, Helvetica, sans-serif; background:url(/img/permafrost/body.jpg); color: #9cc4d4 }
+
+#top {height: 490px; background: url(/img/permafrost/index_bg.jpg) center top no-repeat; font-size: .875em}
+
+#top2 {height: 189px; background: url(/img/permafrost/top2.jpg) center top no-repeat; font-size: .875em}
+
+#container {margin: -64px auto 0; width: 960px; font-size: .875em}
+
+#header {height: 115px; margin: auto; width: 960px;}
+
+#logo {width: 413px; height: 116px; float: right}
+
+#screen {height: 272px; width:960px; margin: 0 auto 70px; background: none}
+
+#left {float: left; width: 300px}
+
+#right {float: right; width: 300px;}
+
+#middle {margin-left: 330px; margin-right: 330px;}
+
+#left, #right, #middle {margin-bottom: 40px; background: url(/img/permafrost/columns.png) no-repeat; height: 284px}
+
+#footer {clear:both; width: 900px; margin: auto; font-size: .8em; padding: 30px; background: url(/img/permafrost/overlay.png);
+}
+
+/* blog */
+
+.post_box {width: 269px; height:240px; margin: 15px; float: left; border: 0px solid white; background:url(/img/permafrost/seperator.png) repeat-x bottom}
+
+.post_box h2 {padding: 0; letter-spacing: .08em; background: none}
+
+.post_box p {line-height: normal}
+
+/* pages */
+
+#page_wrap {width: 960px; margin: auto;}
+
+#page_top {height: 64px; position: relative}
+
+#page {background: url(/img/permafrost/overlay.png); padding: 20px 30px 30px; overflow: auto}
+
+#page_bottom {height: 50px; background: url(/img/permafrost/seperator.png) repeat-x bottom; margin-bottom: 0px}
+
+/* contact info */
+
+#contact_info {float: left; width: 350px; margin-top: 15px}
+
+#contact_info ul {margin: 20px}
+
+#contact_info ul li {background: url(/img/permafrost/arrow.png) no-repeat center left; padding-left: 23px; font-size: .9em; line-height: 1.8em}
+
+/*-----------------------------------------------*/
+/*-------   TYPOGRAPHY, IMG and LISTS   --------*/
+/*---------------------------------------------*/
+
+a {color: #fff; text-decoration: none}
+
+p {padding: 15px 0; line-height: 1.6em; font-size: .9em;}
+
+p.frontpage_text {text-align:justify; margin: 0 15px; line-height: 1.3em;}
+
+h2 {clear: both; padding: 15px 0 5px; color: #9cc4d4; background: url(/img/permafrost/seperator.png) repeat-x bottom;}
+
+h1.pagetitle {padding:12px 30px; width: 700px; text-align:left; font-size: 1.8em; font-weight: normal; letter-spacing: .25em; color: #c8efff; margin-bottom: 15px;}
+
+h3.frontpage_heading {background: url(/img/permafrost/overlay.png); padding:30px 10px 5px; text-align: right; font-size: 1.8em; font-weight: normal; letter-spacing: .25em; color: #c8efff; margin-bottom: 15px;
+    -moz-border-radius-topleft: 5px;
+	-khtml-border-radius-topleft: 5px;
+	-webkit-border-top-left-radius: 5px;
+	-moz-border-radius-topright: 5px;
+	-khtml-border-radius-topright: 5px;
+	-webkit-border-top-right-radius: 5px;
+}
+
+small {color: #507b8d; font-style: italic}
+
+#footer_right h5 {font-size: .9em; font-weight:700; padding-top: 20px; padding-right: 25px; text-align: right; color: #999}
+
+.float_left { float: left; margin-right: 10px; padding: 8px; background: url(/img/permafrost/overlay.png); border: 1px solid #003d53}
+
+
+/**************************** Gallery *****************************/
+
+
+.float_left_thumb {
+	float: left;
+	margin: 0 24px 24px 0px;
+	background: url(/img/permafrost/overlay.png);
+	padding: 8px;
+	text-align: center;
+}
+
+.center {margin: auto;}
+
+#no_gallery_found {width: 798; padding: 50px; margin: auto; background: red; border: 10px solid white}
+
+
+/*-----------------------------------------------*/
+/*---------------   NAVIGATION   ---------------*/
+/*---------------------------------------------*/
+
+/* gallery menu ---------------*/
+
+#g_navcontainer {
+     clear: both;
+	 margin-bottom: 0px;
+}
+
+#g_navcontainer ul {
+     color: White;
+	 padding: 10px 7px 30px
+}
+
+#g_navcontainer ul li {display: inline}
+
+#g_navcontainer ul li a {
+     padding: 0.2em 1em;
+     text-decoration: none;
+	 letter-spacing: .14em
+}
+
+#g_navcontainer ul li a:hover {
+     color: #FFC;
+}
+
+/* horizontal menu ---------------*/
+
+#h_navcontainer {
+     width: 500px;
+	 margin-top: 30px;
+	 padding: 17px 5px;
+	 float: left
+}
+
+#h_navcontainer ul {
+     color: White;
+     width: 100%;
+}
+
+#h_navcontainer ul li {display: inline;}
+
+#h_navcontainer ul li a {
+     padding: 0.2em 1em;
+     color: #fff;
+     text-decoration: none;
+	 letter-spacing: .14em
+}
+
+#h_navcontainer ul li a:hover {
+     color: #0CF;
+}
+
+/* footer menu ---------------*/
+
+#footer h4 {font-weight: bold; margin-bottom: 8px; padding: 5px;
+}
+
+#footer_left {float: left; width: 540px; border: 0px solid red}
+
+#footer_left ul {float: left; margin-right: 60px; width: 120px}
+
+#footer_left li {background: url(/img/permafrost/seperator.png) repeat-x bottom; padding: 5px 0}
+
+#footer_left ul li a {color: #2f708a; text-decoration: none;}
+
+#footer_right {width: 310px; padding: 0 20px; height: 150px; float: right; background:url(/img/permafrost/overlay.png)}
+
+
+/* share (social icons) */
+
+#sharethis {width: 150px; position:absolute; right: 12px; top: 11px;}
+
+#sharethis ul li {display: inline; float: left; margin-right: 5px}
+
+/* rss */
+
+	.rss {
+		position:relative;
+		display:block;
+		height: 32px;
+		width: 32px;
+		background:url(/img/permafrost/rss.png) top no-repeat;
+	}
+	
+	.rss * {
+	  display: none;
+	}
+	
+	.rss span.hover {
+		position: absolute;
+		top: 0;
+		left: 0;
+		display: block;
+		height: 32px;
+		width: 32px;
+		background:url(/img/permafrost/rss.png) bottom no-repeat;
+	}
+	
+	/* facebook */
+	
+		.facebook {
+		position:relative;
+		display:block;
+		height: 32px;
+		width: 32px;
+		background:url(/img/permafrost/facebook.png) top no-repeat;
+	}
+	
+	.facebook * {
+	  display: none;
+	}
+	
+	.facebook span.hover {
+		position: absolute;
+		top: 0;
+		left: 0;
+		display: block;
+		height: 32px;
+		width: 32px;
+		background:url(/img/permafrost/facebook.png) bottom no-repeat;
+	}
+	
+	/* twitter */
+	
+		.twitter {
+		position:relative;
+		display:block;
+		height: 32px;
+		width: 32px;
+		background:url(/img/permafrost/twitter.png) top no-repeat;
+	}
+	
+	.twitter * {
+	  display: none;
+	}
+	
+	.twitter span.hover {
+		position: absolute;
+		top: 0;
+		left: 0;
+		display: block;
+		height: 32px;
+		width: 32px;
+		background:url(/img/permafrost/twitter.png) bottom no-repeat;
+	}
+	
+		/* stumble */
+	
+		.stumble {
+		position:relative;
+		display:block;
+		height: 32px;
+		width: 32px;
+		background:url(/img/permafrost/stumble.png) top no-repeat;
+	}
+	
+	.stumble * {
+	  display: none;
+	}
+	
+	.stumble span.hover {
+		position: absolute;
+		top: 0;
+		left: 0;
+		display: block;
+		height: 32px;
+		width: 32px;
+		background:url(/img/permafrost/stumble.png) bottom no-repeat;
+	}
+
+/*-----------------------------------------------*/
+/*---------------      FORMS     ---------------*/
+/*---------------------------------------------*/
+
+#form_container, #form_container_comment {border: 1px solid #003d53; width: 460px; margin-top: 30px; padding: 20px 20px 20px; background: url(/img/permafrost/overlay.png); float: right; margin-left: 20px;
+    -moz-border-radius-topleft: 8px;
+	-khtml-border-radius-topleft: 8px;
+	-webkit-border-top-left-radius: 8px;
+    -moz-border-radius-topright: 8px;
+	-khtml-border-radius-topright: 8px;
+	-webkit-border-top-right-radius: 8px;
+	-moz-border-radius-bottomright: 8px;
+	-khtml-border-radius-bottomright: 8px;
+	-webkit-border-bottom-right-radius: 8px;
+	-moz-border-radius-bottomleft: 8px;
+	-khtml-border-radius-bottomleft: 8px;
+	-webkit-border-bottom-left-radius: 8px;
+}
+
+#form_container_comment {float: left}
+
+/* comment form */
+
+form {margin-top: 20px}
+
+#commentform p {padding: 5px 0}
+
+.input_bg {background: url(/img/permafrost/overlay.png); border: 1px solid #003d53; color: #FFF}
+
+fieldset {padding: 10px 20px;}
+
+legend {margin-left: 2px; padding: 2px 0px; font-weight: bold;}
+
+#submit {background: #000; color: #FFF; font-weight:700; border: 1px solid #003d53; padding: 5px; cursor: pointer;}
+
+
+/*-----------------------------------------------*/
+/*---------------      Slider     --------------*/
+/*---------------------------------------------*/
+
+	#slideshow{
+	width: 914px;
+	height: 228px; 
+	margin: 22px auto 0;
+	background: url(/img/permafrost/overlay.png)
+	}
+	
+	#slideshow-threed{
+	width: 920px;
+	height: 283px; 
+	margin: 15px 0px 0px 0px;
+	float: left;
+	}
+	
+	#box-nav-slider{
+	width:950px;
+	margin-top: 5px;
+	height:17px;
+	float:left;
+	}
+	
+	#slideshow-navigation a{
+	background: url(/img/permafrost/slide.png) no-repeat scroll 50% 50%;
+	display: block;
+	float: left;
+	font-size: 0px;
+	width: 9px;
+	height: 9px;
+	margin: 0;
+	outline-style: none;
+	outline-width: medium;
+	padding: 2px;
+	}
+	
+	#slideshow-navigation{float:right; padding-right:10px}
+	#slideshow-navigation .activeSlide {background: url(/img/permafrost/slide.png) no-repeat scroll 0% 50%;}
+	.slidehalf { margin-top:0px; margin-right:20px; float:left;} /* Editable Slider Image Position */
+	.slidehalf2 { margin-top:0px; margin-right:0px; float:left;} /* Editable Slider Image Position */
+	.slide-text h1{color:#c8efff; padding:20px 20px 0px 0px}
+	.slide-text p{font-size:12px; color:#9cc4d4; line-height:22px; padding-right:20px; text-align: justify}
+	.flash-img {text-align:center; display:block; margin:100px auto 0 auto;}
+	
+	a.read_more{color: #fff; font-size:12px; float: right; margin-right: 20px}
+
+
+/* fading logo */
+
+	.fadeThis {
+		position:relative;
+		display:block;
+		height: 115px;
+		width: 411px;
+		background:url(/img/permafrost/logo_hover.png) top no-repeat;
+	}
+	
+	.fadeThis * {
+	  display: none;
+	}
+	
+	.fadeThis span.hover {
+		position: absolute;
+		top: 0;
+		left: 0;
+		display: block;
+		height: 115px;
+		width: 411px;
+		background:url(/img/permafrost/logo_hover.png) bottom no-repeat;
+	}

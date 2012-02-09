@@ -1,0 +1,199 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="/css/permafrost/style.css" />
+
+	<!--[if IE 7]>
+	<link rel="stylesheet" type="text/css" href="/css/permafrost/styleie7.css" />
+	<![endif]-->
+
+
+<title>CssTemplateHeaven</title>
+<script type="text/javascript" src="/js/jquery.js"></script>
+
+
+<script src="/js/jquery.cycle.all.js" type="text/javascript"></script>
+<script type="text/javascript">
+   $(function(){     
+         $('#slideshow').cycle({
+            timeout: 5000,  // milliseconds between slide transitions (0 to disable auto advance)
+            fx:      'fade', // choose your transition type, ex: fade, scrollUp, shuffle, etc...            
+            pager:   '#pager',  // selector for element to use as pager container
+            pause:   0,	  // true to enable "pause on hover"
+            pauseOnPagerHover: 0 // true to pause when hovering over pager link
+        });
+		$('#featured').cycle({
+            timeout: 12000,  // milliseconds between slide transitions (0 to disable auto advance)
+            fx:      'scrollUp', // choose your transition type, ex: fade, scrollUp, shuffle, etc...                        
+            pause:   0,	  // true to enable "pause on hover"
+            pauseOnPagerHover: 0 // true to pause when hovering over pager link
+        });          
+     });
+</script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.fadeThis').append('<span class="hover"></span>').each(function () {
+	  var $span = $('> span.hover', this).css('opacity', 0);
+	  $(this).hover(function () {
+	    $span.stop().fadeTo(500, 1);
+	  }, function () {
+	    $span.stop().fadeTo(500, 0);
+	  });
+	});
+	
+		$('.fadeDiv').append('<span class="hover"></span>').each(function () {
+	  var $span = $('> span.hover', this).css('opacity', 0);
+	  $(this).hover(function () {
+	    $span.stop().fadeTo(500, 1);
+	  }, function () {
+	    $span.stop().fadeTo(500, 0);
+	  });
+	});
+});
+</script>
+
+
+</head>
+
+<body>
+
+<div id="top">
+<div id="header">
+
+<div id="h_navcontainer">
+<ul>
+   <li><a href="index.html">Home</a></li>
+   <li><a href="blog.html">Blog</a></li>
+   <li><a href="page.html">Page</a></li>
+   <li><a href="gallery.html">Gallery</a></li>
+   <li><a href="contact.html">Contact</a></li>
+</ul>
+</div><!-- close h_navcontainer -->
+
+<div id="logo">
+		<ul>
+			<li><a href="index.html" class="fadeThis"><span><h2>Adam Schmideg</h2></span></a></li>
+		</ul>
+</div>
+
+</div><!-- close header -->
+
+<div id="screen">
+
+
+            <!-- BEGIN SLIDER -->
+             <div id="slideshow">              
+                  <div class="slide-text">
+                     <img src="/img/permafrost/slide1.jpg" alt="" height="228" class="slidehalf"  />	
+                     <h1>Fashion &amp; Beauty...</h1>
+                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo, nemo enim ipsam voluptatem quia voluptas sit asperna.</p>
+
+                     <a class="read_more" href="#">Learn more &raquo;</a>
+                  </div><!-- end of slide1 -->
+               
+                  <div class="slide-text">
+                     <img src="/img/permafrost/slide1.jpg" alt="" height="228" class="slidehalf"  />	
+                     <h1>Abstract &amp; Art...</h1>
+                     <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem ut enim ad minima veniam, quis nostrum exercitationem ullam corporis.</p>
+                     <a class="read_more" href="#">Learn more &raquo;</a>          
+                  </div><!-- end of slide2 -->
+
+             
+                  <div class="slide-text">
+                     <img src="/img/permafrost/slide1.jpg" alt="" height="228" class="slidehalf"  />	
+                     <h1>Black &amp; White Portraits...</h1>
+                     <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi.</p>  
+                     <a class="read_more" href="#">Learn more &raquo;</a>                
+                  </div><!-- end of slide3 -->
+              
+                  <div class="slide-text">
+                     <img src="/img/permafrost/slide1.jpg" alt="" height="228" class="slidehalf"  />	
+                     <h1>Fine Art...</h1>
+
+                     <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus, temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet.</p>                     <a class="read_more" href="#">Learn more &raquo;</a>                
+                  </div><!-- end of slide4 -->
+	  		</div>
+            <div id="box-nav-slider">
+                <div id="slideshow-navigation"><div id="pager"></div></div>
+            </div>
+            <!-- END OF SLIDER -->
+
+
+
+</div><!-- close screen -->
+</div>
+
+<div id="container">
+
+
+
+
+<div id="left">
+<h3 class="frontpage_heading">Photo</h3>
+<p class="frontpage_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet nisl et nunc consectetur hendrerit non et nisi. Phasellus molestie tortor eget sapien faucibus in facilisis purus sodales. Integer rutrum vulputate tincidunt. Pellentesque at enim nulla. Duis blandit consectetur velit in euismod. Ut nibh tortor, euismod at dictum et, fringilla ac nulla.</p>
+<a class="read_more" href="#">Learn more &raquo;</a>
+</div><!-- close left -->
+
+<div id="right">
+<h3 class="frontpage_heading">Print</h3>
+<p class="frontpage_text">Ut accumsan tristique est nec mollis. Quisque malesuada fermentum tincidunt. Integer iaculis lobortis metus sed bibendum. Quisque rhoncus malesuada pulvinar. Integer nec diam et nisl auctor fermentum vitae sit amet augue. Integer pharetra, nunc in ultrices accumsan, nulla justo auctor dolor, eget mattis lacus mi sit amet orci.</p>
+<a class="read_more" href="#">Learn more &raquo;</a>
+</div><!-- close right -->
+
+<div id="middle">
+<h3 class="frontpage_heading">Studio</h3>
+<p class="frontpage_text">Maecenas auctor volutpat lobortis. Vivamus tincidunt nunc at felis suscipit quis dictum diam placerat. Pellentesque et quam at arcu adipiscing suscipit vitae eu felis. Ut lacus dui, mollis id fringilla et, dignissim rhoncus nisi. Suspendisse imperdiet mollis urna, sed ornare massa adipiscing id. Maecenas vitae tempus nulla.</p>
+<a class="read_more" href="#">Learn more &raquo;</a>
+</div><!-- close middle -->
+
+
+
+
+
+</div><!-- close container -->
+
+
+<div id="footer">
+
+<div id="footer_left">
+			<ul>
+			<li class="footer_heading"><h4>General</h4></li>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about_us.html">About Us</a></li>
+			<li><a href="services.html">Services</a></li>
+			<li><a href="contact_us.html">Contact Us</a></li>
+		</ul>
+		
+		<ul>
+			<li class="footer_heading"><h4>Services</h4></li>
+			<li><a href="#">Photography</a></li>
+			<li><a href="#">Print</a></li>
+			<li><a href="#">Design</a></li>
+			<li><a href="#">Retouch</a></li>
+		</ul>
+		
+		<ul>
+			<li class="footer_heading"><h4>Upcoming</h4></li>
+			<li><a href="#">New Offers</a></li>
+			<li><a href="#">Free Stock Photos</a></li>
+			<li><a href="#">Studio Lightning</a></li>
+			<li class="last"><a href="#">New from Canon</a></li>
+		</ul>
+ </div>
+        
+ <div id="footer_right">
+<p>Ut mollis dolor id risus laoreet sit amet auctor eros luctus. Curabitur felis justo, sollicitudin fermentum egestas eget, viverra sit amet magna. Fusce a dolor in nulla fermentum convallis.</p>
+<a href="#" class="read_more">Continue Reading &raquo;</a>
+ </div>
+
+
+<p style="clear:both; text-align: center; padding-top:40px">Company Name inc &bull; Gata 3a, 5015 Bergen NORWAY &bull; Tel. 99 99 99 99 <br />Template by: <a href="http://www.csstemplateheaven.com" title="CssTemplateHeaven">CssTemplateHeaven</a> &bull; Photos &copy; <a href="http://www.dieter.no">Dieter Schneider</a></p>
+
+</div><!-- close footer-->
+
+
+
+</body>
+</html>
