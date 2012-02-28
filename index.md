@@ -4,6 +4,9 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   <link rel='stylesheet' href='/css/toc.css' type='text/css'/>
+  <style type='text/css'>
+    span.displaynone { display: none; }
+  </style>
   {% include analytics.html %}
 </head>
 <body>
@@ -28,5 +31,8 @@
     <a style='color: DarkRed; margin: 20px; font-size: 14pt' href='/hu'>Archívum</a>
   </div>
 </div>
+<span class="displaynone">
+  <a href="/gestalt">Schmideg Ádám, Gestalt-terapeuta, Budapest</a>
+</span>
 </body>
 </html>
