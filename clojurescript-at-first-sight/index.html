@@ -1,0 +1,715 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>ClojureScript - at first sight</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/sky.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+
+<div class="slides">
+    <section>
+        <h1>
+            <font face="impact">Clojure-Script&nbsp;</font>
+        </h1>
+        <h2>
+            <font face="impact">at first sight</font>
+        </h2>
+    </section>
+    <section>
+        <h2>whoami</h2>
+        <div>adam.schmideg.net</div>
+    </section>
+    <section>
+        <h2>The question</h2>
+<div>If you like Clojure</div>
+<div>will you like ClojureScript?</div>
+
+</section>
+        <section>
+            <h2>The road</h2>
+            <div>
+                <ul>
+                    <li>
+                        <span style="text-align: center;letter-spacing: -0.02em;">Clojure</span>
+                        <br>
+                    </li>
+                    <li>
+                        <span style="text-align: center;letter-spacing: -0.02em;">ClojureScript?</span>
+                        <br>
+                    </li>
+                    <li>
+                        <span style="text-align: center;letter-spacing: -0.02em;">ClojureScript! (YMMV)</span>
+                        <br>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <h2>The family</h2>
+            <div>
+                <ul>
+                    <li>
+                        <span style="text-align: center;letter-spacing: -0.02em;">clojure</span>
+                        <br>
+                    </li>
+                    <li>
+                        <span style="text-align: center;letter-spacing: -0.02em;">clojure-clr</span>
+                        <br>
+                    </li>
+                    <li>
+                        <span style="text-align: center;letter-spacing: -0.02em;">clojurescript</span>
+                        <br>
+                    </li>
+                    <li>
+                        <span style="text-align: center;letter-spacing: -0.02em;">clojure-py</span>
+                        <br>
+                    </li>
+                    <li>
+                        <span style="text-align: center;letter-spacing: -0.02em;">clojure-scheme</span>
+                        <br>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <h2>Clojure</h2>
+            <div>
+                <ul>
+                    <li>
+                        <span style="text-align: center;letter-spacing: -0.02em;">"clojureness"</span>
+                        <br>
+                    </li>
+                    <li>
+                        <span style="text-align: center;letter-spacing: -0.02em;">Many Lines of Code</span>
+                        <br>
+                    </li>
+                    <li>
+                        <span style="text-align: center;letter-spacing: -0.02em;">Javaland</span>
+                        <br>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <h2>Javaland</h2>
+            <div>
+                <ul>
+                    <li>
+                        <span style="text-align: center;letter-spacing: -0.02em;">Java language</span>
+                        <br>
+                    </li>
+                    <li>
+                        <span style="text-align: center;letter-spacing: -0.02em;">JVM</span>
+                        <br>
+                    </li>
+                    <li>
+                        <span style="text-align: center;letter-spacing: -0.02em;">shared code (snippets, jars)</span>
+                        <br>
+                    </li>
+                    <li>
+                        <span style="text-align: center;letter-spacing: -0.02em;">mindshare</span>
+                        <br>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <h2>Alternatives</h2>
+            <div>
+                <ul>
+                    <li>
+                        <span style="text-align: center;letter-spacing: -0.02em;">Scala</span>
+                        <br>
+                    </li>
+                    <li>
+                        <span style="text-align: center;letter-spacing: -0.02em;">Groovy</span>
+                        <br>
+                    </li>
+                    <li>
+                        <span style="text-align: center;letter-spacing: -0.02em;">Jython, JRuby</span>
+                        <br>
+                    </li>
+                    <li>
+                        <span style="text-align: center;letter-spacing: -0.02em;">XTend</span>
+                    </li>
+                    <li>
+                        <span style="text-align: center;letter-spacing: -0.02em;">lisps</span>
+                        <br>
+                    </li>
+                    <li>
+                        <span style="text-align: center;letter-spacing: -0.02em;">...</span>
+                        <br>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <h2>"clojureness"</h2>
+            <div>
+                <ul>
+                    <li>
+                        <span style="text-align: center;letter-spacing: -0.02em;">dynamic development</span>
+                    </li>
+                    <li>
+                        <span style="text-align: center;letter-spacing: -0.02em;">
+                            <span style="font-size: 36.0px;font-style: normal;font-variant: normal;line-height: 43.1875px;">host interoperability</span>
+                        </span>
+                    </li>
+                    <li>
+                        <span style="text-align: center;letter-spacing: -0.02em;">
+                            <span style="font-size: 36.0px;font-style: normal;font-variant: normal;line-height: 43.1875px;">modern lisp</span>
+                            <br>
+                        </span>
+                    </li>
+                    <li>
+                        <span style="text-align: center;letter-spacing: -0.02em;">
+                            <i>concurrent programming</i>
+                        </span>
+                    </li>
+                    <li>
+                        <span style="text-align: center;letter-spacing: -0.02em;">
+                            <span style="font-size: 36.0px;font-variant: normal;line-height: 43.1875px;">
+                                <i>runtime polymorphism</i>
+                            </span>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <br>
+            </div>
+        </section>
+        <section>
+            <h2>Modern Lisp</h2>
+            <h3>(clojureness cont'd)</h3>
+            <div>
+                <ul>
+                    <li style="font-size: 36.0px;font-style: normal;font-variant: normal;line-height: 43.1875px;">
+                        <span style="letter-spacing: -0.02em;">first-class functions</span>
+                        <br>
+                    </li>
+                    <li style="font-size: 36.0px;font-style: normal;font-variant: normal;line-height: 43.1875px;">
+                        <span style="letter-spacing: -0.02em;">immutable data structures</span>
+                        <br>
+                    </li>
+                    <li style="font-size: 36.0px;font-style: normal;font-variant: normal;line-height: 43.1875px;">
+                        <span style="letter-spacing: -0.02em;">recursion</span>
+                    </li>
+                    <li style="font-size: 36.0px;font-style: normal;font-variant: normal;line-height: 43.1875px;">
+                        <span style="letter-spacing: -0.02em;">macro</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <h2>clojureness in practice</h2>
+            <div>
+                <ul>
+                    <li>
+                        <span style="text-align: center;letter-spacing: -0.02em;">compile</span>
+                        <br>
+                    </li>
+                    <li>
+                        <span style="text-align: center;letter-spacing: -0.02em;">manage dependencies</span>
+                        <br>
+                    </li>
+                    <li>
+                        <span style="text-align: center;letter-spacing: -0.02em;">deploy</span>
+                        <br>
+                    </li>
+                    <li>
+                        <span style="text-align: center;letter-spacing: -0.02em;">debug</span>
+                        <br>
+                    </li>
+                    <li>
+                        <span style="text-align: center;letter-spacing: -0.02em;">simple made easy?</span>
+                        <br>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <h2>Clojureland</h2>
+            <div>
+                <ul>
+                    <li>
+                        <span style="text-align: center;letter-spacing: -0.02em;">leiningen</span>
+                        <br>
+                    </li>
+                    <li>
+                        <span style="text-align: center;letter-spacing: -0.02em;">clojars</span>
+                        <br>
+                    </li>
+                    <li>
+                        <span style="text-align: center;letter-spacing: -0.02em;">REPL</span>
+                        <br>
+                    </li>
+                    <li>
+                        <span style="text-align: center;letter-spacing: -0.02em;">people</span>
+                        <br>
+                    </li>
+                    <li>
+                        <span style="text-align: center;letter-spacing: -0.02em;">batteries</span>
+                        <br>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <h2>Batteries</h2>
+            <div>
+                <ul>
+                    <li>
+                        <span style="text-align: center;letter-spacing: -0.02em;">Included: </span>
+                        <font face="courier new" style="font-size: inherit;font-style: inherit;font-variant: inherit;line-height: inherit;text-align: center;letter-spacing: -0.02em;">set, walk, ...</font>
+                        <br>
+                    </li>
+                    <li>
+                        <span style="font-size: 36.0px;font-style: normal;font-variant: normal;line-height: 43.1875px;text-align: center;letter-spacing: -0.02em;">Excluded: </span>
+                        <span style="font-size: 36.0px;font-style: normal;font-variant: normal;line-height: 43.1875px;text-align: center;letter-spacing: -0.02em;">
+                            <font face="courier new">json, logic, xml, ...</font>
+                        </span>
+                        <br>
+                    </li>
+                    <li>
+                        <span style="text-align: center;letter-spacing: -0.02em;">Libraries: <font face="courier new">compojure, ring, enlive, ...</font>
+                    </span>
+                </li>
+                <li>
+                    <span style="text-align: center;letter-spacing: -0.02em;">Projects: <font face="courier new">overtone, incanter, ...</font>
+                </span>
+                <br>
+            </li>
+        </ul>
+    </div>
+</section>
+<section>
+    <h2>ClojureScript</h2>
+    <div>
+        <ul>
+            <li>
+                <span style="text-align: center;letter-spacing: -0.02em;">"clojureness"</span>
+                <br>
+            </li>
+            <li>
+                <span style="text-align: center;letter-spacing: -0.02em;">More Lines of Code</span>
+                <br>
+            </li>
+            <li>
+                <span style="text-align: center;letter-spacing: -0.02em;">JavaScriptLand</span>
+                <br>
+            </li>
+        </ul>
+    </div>
+</section>
+<section>
+    <h2>JavaScriptLand?</h2>
+<pre>
+    <code>
+module greeting;
+
+var name = readLine();
+    if (name == null) {
+     console.log("Hello, world");
+    }
+    else {
+  console.log("Hello, " + name);
+    }
+
+// no, it's not working code
+</code>
+</pre>
+
+
+
+
+</section>
+<section>
+    <h2>JavaScriptLand!</h2>
+    <div>
+        <ul>
+            <li>
+                <span style="text-align: center;letter-spacing: -0.02em;">browsers</span>
+                <br>
+            </li>
+            <li>
+                <span style="text-align: center;letter-spacing: -0.02em;">server-side engines</span>
+                <br>
+            </li>
+            <li>
+                <span style="text-align: center;letter-spacing: -0.02em;">common.js</span>
+                <br>
+            </li>
+            <li>
+                <span style="text-align: center;letter-spacing: -0.02em;">
+                    <i>de facto</i> libraries</span>
+                    <br>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section>
+        <h2>More Lines of Code</h2>
+        <div>
+            <ul>
+                <li>
+                    <span style="text-align: center;letter-spacing: -0.02em;">Read-emit in Clojure</span>
+                    <br>
+                </li>
+                <li>
+                    <span style="text-align: center;letter-spacing: -0.02em;">Closure compiler in Java</span>
+                    <br>
+                </li>
+                <li>
+                    <span style="text-align: center;letter-spacing: -0.02em;">cljs.core library</span>
+                    <br>
+                </li>
+                <li>
+                    <span style="text-align: center;letter-spacing: -0.02em;">Google Closure Library</span>
+                    <br>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section>
+        <h2>Alternatives</h2>
+        <div>
+            <ul>
+                <li>
+                    <span style="text-align: center;letter-spacing: -0.02em;">Dart, TypeScript,&nbsp;</span>
+                    <span style="text-align: center;letter-spacing: -0.02em;">Adobe AIR</span>
+                    <br>
+                </li>
+                <li>
+                    <span style="text-align: center;letter-spacing: -0.02em;">CoffeeScript, ...</span>
+                    <br>
+                </li>
+                <li>
+                    <span style="text-align: center;letter-spacing: -0.02em;">Haxe, Fantom, ...</span>
+                    <br>
+                </li>
+                <li>
+                    <span style="text-align: center;letter-spacing: -0.02em;">language ports</span>
+                    <br>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section>
+        <h2>Alternatives</h2>
+        <h3>with some clojureness</h3>
+        <div>
+            <ul>
+                <li>
+                    <span style="text-align: center;letter-spacing: -0.02em;">lisps and schemes</span>
+                    <br>
+                </li>
+                <li>
+                    <span style="text-align: center;letter-spacing: -0.02em;">chlorinejs</span>
+                    <br>
+                </li>
+                <li>
+                    <span style="text-align: center;letter-spacing: -0.02em;">kanaka/clojurescript</span>
+                    <br>
+                </li>
+                <li>
+                    <span style="text-align: center;letter-spacing: -0.02em;">mori</span>
+                    <br>
+                </li>
+                <li>
+                    <span style="text-align: center;letter-spacing: -0.02em;">wisp</span>
+                    <br>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <br>
+        </div>
+    </section>
+    <section>
+        <h2>Clojure vs Coffe</h2>
+<div>
+<div style="text-align: center;">
+    <ul style="list-style-type: none;">
+        <li>
+            <span style="text-align: center;letter-spacing: -0.02em;">- heavy-weight</span>
+            <span style="text-align: center;letter-spacing: -0.02em;">&nbsp;</span>
+            <br>
+        </li>
+        <li>
+            <span style="text-align: center;letter-spacing: -0.02em;">- slow compilation</span>
+            <span style="text-align: center;letter-spacing: -0.02em;">&nbsp;</span>
+            <br>
+        </li>
+        <li>
+            <span style="text-align: center;letter-spacing: -0.02em;">- debugging</span>
+        <br>
+        </li>
+        <li>
+            <span style="text-align: center;letter-spacing: -0.02em;">+ persistent data structures</span>
+            <span style="text-align: center;letter-spacing: -0.02em;">&nbsp;</span>
+            <br>
+        </li>
+        <li>
+            <span style="text-align: center;letter-spacing: -0.02em;">+ no javascript bad parts</span>
+            <span style="text-align: center;letter-spacing: -0.02em;">&nbsp;</span>
+            <br>
+        </li>
+        <li>
+            <span style="text-align: center;letter-spacing: -0.02em;">± ecosystem</span>
+            <span style="text-align: center;letter-spacing: -0.02em;">&nbsp;</span>
+            <br>
+        </li>
+    </ul>
+</div>
+    <ul>
+    </ul>
+</div>
+<div>
+    <br>
+</div>
+
+
+</section>
+        <section>
+            <h2>differences</h2>
+<pre>
+            <code>(ns foo.bar
+    (:use
+     [foo.helper :only [baz]])
+    (:require
+     [clojure.set :as set])
+    (:use-macro
+     [foo.macros :only [debug]]))
+</code>
+        </pre>
+
+
+</section>
+        <section>
+            <h2>Missing</h2>
+<div>
+    <div>
+            <ul>
+                <li style="font-size: 36.0px;font-style: normal;font-variant: normal;line-height: 43.1875px;">
+                    <span style="text-align: center;letter-spacing: -0.02em;">ns-resolve and friends</span>
+                    <br>
+                </li>
+                <li style="text-align: left;">
+                    <span style="letter-spacing: -0.02em;text-align: center;">rationalize, bigint, and friends</span>
+                    <br>
+                </li>
+                <li style="text-align: left;">
+                    <span style="letter-spacing: -0.02em;text-align: center;">
+                        <span style="font-size: 36.0px;font-style: normal;font-variant: normal;line-height: 43.1875px;">*out*, print</span>
+                    </span>
+                </li>
+                <li style="text-align: left;">
+                    <span style="letter-spacing: -0.02em;text-align: center;">
+                        <span style="font-size: 36.0px;font-style: normal;font-variant: normal;line-height: 43.1875px;">some core libraries (pprint, test, xml)</span>
+                        <br>
+                    </span>
+                </li>
+            </ul>
+        </div>
+    
+</div>
+</section>
+        <section>
+            <h2>Interop Differences</h2>
+<div>
+    <pre>
+            <code>(defn ^:export show-off
+  "It will be show_off"
+  [&amp; args]
+  (let [[head tail] (js-&gt;clj args)]
+    (.log js/console "Before greeting")
+    (set! (.-title js/document) "Hi!")))
+</code>
+        </pre>
+</div>
+
+</section>
+        <section>
+            <h2>Decisions to make</h2>
+            <div>
+                <ul>
+                    <li>
+                        <span style="text-align: center;letter-spacing: -0.02em;">Node.js/npm or browser or ...</span>
+                        <br>
+                    </li>
+                    <li>
+                        <span style="text-align: center;letter-spacing: -0.02em;">Development workflow</span>
+                        <br>
+                    </li>
+                    <li>
+                        <span style="text-align: center;letter-spacing: -0.02em;">Shared code or js only</span>
+                        <br>
+                    </li>
+                    <li>
+                        <span style="text-align: center;letter-spacing: -0.02em;">Macros</span>
+                        <br>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <h2>Step One</h2>
+            <pre>
+                <code>lein new cljs-kickoff step-one
+cd step-one
+lein cljsbuild auto &amp;
+lein ring server
+</code>
+            </pre>
+        </section>
+        <section>
+            <h2>Step Two</h2>
+            <div>
+                <ul>
+                    <li>
+                        <span style="text-align: center;letter-spacing: -0.02em;">ClojureScript One</span>
+                        <br>
+                    </li>
+                    <li>
+                        <span style="text-align: center;letter-spacing: -0.02em;">REPLs</span>
+                        <br>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <h2>cljsbuild</h2>
+            <pre>
+                <code>(defproject step-three "0.0.3"
+  :source-paths ["src/clj" "src/common"]
+  :test-paths ["test/clj"]
+  :repl-options {:port 40444}
+  :cljsbuild
+    {:builds
+       [{:source-paths ["src/cljs" "src/common"]
+         :compiler
+         {:pretty-print true
+          :output-to "gen/generated.js"
+          :optimizations :whitespace}}]
+     :crossover-path "target/crossover"
+     :crossovers ["foo.bar"]})
+</code>
+            </pre>
+        </section>
+        <section>
+            <h2>Node.js</h2>
+            <div>
+                <ul>
+                    <li>
+                        <span style="text-align: center;letter-spacing: -0.02em;">node target in cljsbuild</span>
+                        <br>
+                    </li>
+                    <li>
+                        <span style="text-align: center;letter-spacing: -0.02em;">bodil/cljs-noderepl</span>
+                        <br>
+                    </li>
+                    <li>
+                        <span style="text-align: center;letter-spacing: -0.02em;">node-clojurescript (dead?)</span>
+                        <br>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <h2>Shared code</h2>
+            <div>
+                <ul>
+                    <li>
+                        <span style="text-align: center;letter-spacing: -0.02em;">none</span>
+                        <br>
+                    </li>
+                    <li>
+                        <span style="text-align: center;letter-spacing: -0.02em;">cljsbuild crossovers</span>
+                        <br>
+                    </li>
+                    <li>
+                        <span style="text-align: center;letter-spacing: -0.02em;">cljx</span>
+                        <br>
+                    </li>
+                    <li>
+                        <span style="text-align: center;letter-spacing: -0.02em;">feature expressions (someday)</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <h2>The Answer</h2>
+            <div>I hate this answer.</div>
+            <div>Do I like ClojureScript?</div>
+            <div>Well, it depends.</div>
+            <div>
+                <br>
+            </div>
+            <div>Do you?</div>
+        </section>
+    </div>
+                </div>
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'cube', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
