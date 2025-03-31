@@ -7,7 +7,7 @@ plugins:
   - jekyll-include-cache
 
 chulapa-skin: 
-  skin:  chulapa
+  skin:  hootstrap
 
 search:
   provider: simplesearch
