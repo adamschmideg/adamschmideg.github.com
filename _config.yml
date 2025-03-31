@@ -5,3 +5,12 @@ remote_theme: dieghernan/chulapa
 
 plugins:
   - jekyll-include-cache
+
+chulapa-skin: 
+  skin:  chulapa
+
+search:
+  provider: simplesearch
+
+gtag_id: 'UA-6932086-1'
+analytics_id: 'UA-6932086-1'
