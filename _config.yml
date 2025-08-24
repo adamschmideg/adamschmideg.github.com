@@ -1,14 +1,13 @@
-pygments: true
-#lsi: true
+highlighter: rouge
 permalink: /:year/:month/:title
 remote_theme: dieghernan/chulapa
-
 plugins:
   - jekyll-include-cache
-
+  - jekyll-remote-theme
+  - jekyll-sitemap
+  - jekyll-feed
 chulapa-skin: 
-  skin:  hootstrap
-
+  skin: hootstrap
 search:
   provider: simplesearch
 
