@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'jekyll', '~> 3.9'
+gem 'jekyll-remote-theme'
+gem 'jekyll-include-cache'
+gem 'jekyll-sitemap'
+gem 'jekyll-feed'
+gem 'kramdown-parser-gfm'
+gem 'webrick'
