@@ -14,3 +14,10 @@ search:
 
 gtag_id: 'UA-6932086-1'
 analytics_id: 'UA-6932086-1'
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "default"

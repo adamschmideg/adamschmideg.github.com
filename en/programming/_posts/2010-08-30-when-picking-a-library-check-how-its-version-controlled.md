@@ -1,5 +1,4 @@
 ---
-layout: code
 title: When picking a library, check how it's version-controlled
 published: true
 ---

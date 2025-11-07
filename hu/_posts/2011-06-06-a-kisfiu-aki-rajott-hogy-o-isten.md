@@ -1,6 +1,5 @@
 ---
 title: A kisfiú, aki rájött, hogy ő isten
-layout: post
 ---
 Kedvenc mesekönyvem egy kisfiúról szól, aki nagyapja padlásán kutakodik
 a régi iratok között.  Ahogy beleolvas az elsárgult papírokba, az derül

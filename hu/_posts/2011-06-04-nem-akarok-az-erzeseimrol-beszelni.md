@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Nem akarok az érzéseimről beszélni
 lead: Kiadatlan, általam kitalált részlet Fritz Perls egyik csoportterápiás üléséről.
 tags: [gestalt, gestalt-terápia, fritz perls]

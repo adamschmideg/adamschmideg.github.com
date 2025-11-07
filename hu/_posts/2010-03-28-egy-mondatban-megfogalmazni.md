@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Egy mondatban megfogalmazni
 ---
 Van egy szerző, akinek mindenki ráismer a stílusára.  

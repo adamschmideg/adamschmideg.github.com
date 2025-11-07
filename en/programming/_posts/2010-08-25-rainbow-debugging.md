@@ -1,5 +1,4 @@
 ---
-layout: code
 title: Rainbow debugging
 ---
 Debugging is a recursive process to find out

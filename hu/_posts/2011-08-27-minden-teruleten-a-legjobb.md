@@ -1,6 +1,5 @@
 ---
 title: Minden területen a legjobb
-layout: post
 ---
 Értelmetlen összehasonlítani magam a világ legnagyobb íróival,
 önkéntelenül mégis folyton ezt teszem.  Megállapítom, hogy már az első

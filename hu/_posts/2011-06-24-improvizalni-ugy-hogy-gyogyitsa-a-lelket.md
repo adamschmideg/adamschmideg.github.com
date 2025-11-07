@@ -1,6 +1,5 @@
 ---
 title: Improvizálni úgy, hogy gyógyítsa a lelket
-layout: post
 lead: A Playback és a Gestalt közötti rokonságról a II. Országos Playback Színházi találkozóra
 tags: [gestalt, playback]
 ---

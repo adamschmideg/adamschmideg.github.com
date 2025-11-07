@@ -1,6 +1,5 @@
 ---
 title: Writer's block - how not to overcome it
-layout: post
 ---
 You can find many posts on how to overcome writer's block.  Some
 books devote a whole chapter to this issue.  Many relate it to the

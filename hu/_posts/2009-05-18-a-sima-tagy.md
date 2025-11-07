@@ -1,6 +1,5 @@
 ---
 title: A sima tárgy
-layout: post
 ---
 ![zen-stone](https://lh4.googleusercontent.com/-DD3v2K0hsxc/Tf8_dgZyPQI/AAAAAAAAABA/Z9uMKwsoopM/s144/zen_stone1.jpg)
 Van egy tárgy, egy eszköz, amely elsimítja a gondokat. Hívjuk

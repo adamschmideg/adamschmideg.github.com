@@ -1,6 +1,5 @@
 ---
 title: Felfedező irodalom
-layout: post
 ---
 Már a címadással is bajban vagyok.  Paul Graham
 [írt egy esszét](http://paulgraham.com/essay.html) arról, hogy

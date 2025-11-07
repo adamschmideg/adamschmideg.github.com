@@ -1,7 +1,6 @@
 ---
 title: Jeromos a mélyben
 lead: Mese, melyet az Integrált Kifejezés- és Táncterápiás tábor alatt írtam
-layout: post
 ---
 Jeromos búvár volt.  Napjában legalább ötvenszer alábukott a mélybe,
 tapogatott az iszapban, s felhozta, amit talált.  Legtöbbször köveket,

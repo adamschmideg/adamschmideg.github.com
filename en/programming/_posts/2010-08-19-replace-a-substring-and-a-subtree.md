@@ -1,5 +1,4 @@
 ---
-layout: code
 title: Replace a substring and a subtree at the same time
 ---
 In the debugger part of Lambdebug, the currently executing functions is

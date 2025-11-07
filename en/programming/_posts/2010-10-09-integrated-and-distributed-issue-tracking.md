@@ -1,5 +1,4 @@
 ---
-layout: code
 title: Integrated and distributed issue tracking
 ---
 People are tending to realize now that version control and issue

@@ -1,6 +1,5 @@
 ---
 title: Az árnyékos pad és a föld
-layout: post
 lead: Az önismeret napos és árnyékos oldaláról, tűnődés a parkban 
 tags: [gestalt, gestalt-terápia]
 ---

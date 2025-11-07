@@ -1,6 +1,5 @@
 ---
 title: Vigyázni Pepikére
-layout: post
 lead: Történet, amelyben durván nem történik semmi, és közben Pepikére is vigyáznak
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: A kőműves barátja
-layout: post
 published: False
 ---
 Tudtad, hogy az eszkimóknak negyven szavuk van a hóra?  Felejtsd el,

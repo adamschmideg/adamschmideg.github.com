@@ -1,6 +1,5 @@
 ---
 title: A királyság, amelyben szeretünk élni
-layout: post
 ---
 Isten kegyelméből való királyságban élünk, és ebben is akarunk élni.
 Azért hívjuk demokráciának, mert a koronázási ceremóniában bárki részt vehet.

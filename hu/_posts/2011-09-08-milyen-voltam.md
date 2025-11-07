@@ -1,6 +1,5 @@
 ---
 title: Milyen voltam?
-layout: post
 lead: Avagy mennyire hiányzik az egyértelmű visszajelzés a művészeknek 
 ---
 Több színészről kering a következő anekdota.  Előadás után összefut
